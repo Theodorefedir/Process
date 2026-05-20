@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taskManager", "taskManager\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsHw1", "ThreadsHw1\ThreadsHw1.csproj", "{3CDC4BD1-EF94-43DA-B9EB-DFF092C2539E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsHw2", "ThreadsHw2\ThreadsHw2.csproj", "{8978B90B-FF9B-4340-B068-C033DA6B328E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3CDC4BD1-EF94-43DA-B9EB-DFF092C2539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDC4BD1-EF94-43DA-B9EB-DFF092C2539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDC4BD1-EF94-43DA-B9EB-DFF092C2539E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8978B90B-FF9B-4340-B068-C033DA6B328E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8978B90B-FF9B-4340-B068-C033DA6B328E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8978B90B-FF9B-4340-B068-C033DA6B328E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8978B90B-FF9B-4340-B068-C033DA6B328E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
