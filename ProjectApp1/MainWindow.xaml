@@ -1,0 +1,66 @@
+﻿<Window x:Class="ProjectApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Word Search in Files" Height="550" Width="850">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label FontSize="20" 
+               Margin="5">Directory:</Label>
+
+        <TextBox Grid.Column="1" 
+                 Margin="5" 
+                 Padding="8" 
+                 Name="DirectoryTextBox" 
+                 Height="35"/>
+
+        <Button Grid.Column="2" 
+                Padding="15,5" 
+                Margin="5" 
+                FontSize="16" 
+                Click="BrowseButton_Click">Browse...</Button>
+
+        <Label Grid.Row="1"
+               FontSize="20"
+               Margin="5">Word:</Label>
+
+        <TextBox Grid.Row="1" 
+                 Grid.Column="1" 
+                 Margin="5" 
+                 Padding="8" 
+                 Name="WordTextBox" 
+                 Height="35"/>
+
+        <Button Grid.Row="1" 
+                Grid.Column="2" 
+                Padding="15,5" 
+                Margin="5" 
+                FontSize="16" 
+                Click="SearchButton_Click">Search</Button>
+
+        <Label Grid.Row="3" 
+               Grid.ColumnSpan="3" 
+               FontSize="18" 
+               FontWeight="Bold" 
+               Margin="5">Search Results:</Label>
+
+        <ListBox Grid.Row="4" 
+                 Grid.ColumnSpan="3" 
+                 Name="ResultsListBox" 
+                 Margin="5" 
+                 FontSize="13"/>
+    </Grid>
+</Window>
